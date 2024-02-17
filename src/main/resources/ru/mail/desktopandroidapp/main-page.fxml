@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="597.0" prefWidth="849.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.mail.desktopandroidapp.controllers.MainPageController">
+   <children>
+      <Button mnemonicParsing="false" onAction="#regPatient" prefHeight="59.0" prefWidth="160.0" text="Регистрация пациента"  />
+      <Button mnemonicParsing="false" onAction="#hospitalization" prefHeight="59.0" prefWidth="160.0" text="Госпитализация" />
+   </children>
+</HBox>
